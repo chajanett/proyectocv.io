@@ -1,4 +1,4 @@
-
+g
 document.getElementById ("direccion").onclick = function () {
     console.log ("cick en direccion");
     document.getElementById ("titulo").innerHTML=" Dirección";
