@@ -38,3 +38,12 @@ document.getElementById ("experiencia").onclick = function () {
 let refresh= document.getElementById ("inicio"); refresh.addEventListener('click', _ => {
     location.reload();
 })
+const colorSwitch = document.querySelector('#temas input[type="checkbox"]');
+            function cambiaTema(ev){
+                if(ev.target.checked){
+                    document.documentElement.setAttribute('tema', 'dia');
+                } else {
+                    document.documentElement.setAttribute('tema', 'noche');
+                }
+            }
+            colorSwitch.addEventListener('change', cambiaTema);
