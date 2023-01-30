@@ -35,15 +35,24 @@ document.getElementById ("experiencia").onclick = function () {
     document.getElementById ("parrafo2").innerHTML=" 03/2018 - presente Responsable de almacén, Almacenes Centrales- 01/2012 - 03/2018 Operario de logística, Transportes Unidos-09/2010 - 01/2012 Mozo de almacén, Almacenes Industriales";
     document.getElementById ("imgcont").src="media/imgexperiencia.jpg";
 }
-let refresh= document.getElementById ("inicio"); refresh.addEventListener('click', _ => {
-    location.reload();
-})
+
+document.getElementById ("inicio").onclick = function () {
+    console.log ("cick en inicio");
+    document.getElementById ("titulo").innerHTML=" Proyecto Final";
+    document.getElementById ("subtitulo1").innerHTML="Ejemplo de CV";
+    document.getElementById ("parrafo").innerHTML=" Este trabajo ha sido realizado por Juan Daniel Fernández, el mismo contiene Funciones de Js en el menu que modifica el contenido principal";
+    document.getElementById ("subtitulo2").innerHTML="";
+    document.getElementById ("parrafo2").innerHTML="";
+    document.getElementById ("imgcont").src="media/imgproyectocv.jpg";
+}
+
 const colorSwitch = document.querySelector('#temas input[type="checkbox"]');
             function cambiaTema(ev){
                 if(ev.target.checked){
-                    document.documentElement.setAttribute('tema', 'dia');
+                    document.documentElement.setAttribute('tema', 'dia'); document.getElementById ("deslisador").innerHTML="🌜";
                 } else {
-                    document.documentElement.setAttribute('tema', 'noche');
+                    document.documentElement.setAttribute('tema', 'noche'); document.getElementById ("deslisador").innerHTML="🌞";
                 }
             }
             colorSwitch.addEventListener('change', cambiaTema);
+
