@@ -55,4 +55,3 @@ const colorSwitch = document.querySelector('#temas input[type="checkbox"]');
                 }
             }
             colorSwitch.addEventListener('change', cambiaTema);
-
