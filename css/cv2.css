@@ -28,7 +28,7 @@
 
 [class*="col-"] {
   float: left;
-  padding: 15px;
+  padding: 20px;
 }
 
 html {
@@ -39,18 +39,19 @@ html {
 .header {
   background-color: var(--color-fondo);
   background-repeat: no-repeat;
-  padding: 20px;
+  padding: 18px;
   text-shadow: 2px 2px 5px rgb(21, 4, 85);
   font-size: 25px
  
 }
 .header h1 {
   color: var(--color-fuente);
+  margin: 15px;
  
 }
 .header h5 {
   color: var(--color-fuente);
- 
+  margin: 15px;
 }
 
 .menu ul {
@@ -112,6 +113,7 @@ html {
   text-align: center;
   font-size: 18px;
   padding: 15px;
+  margin: 0px;
 }
 .footer img {
   width: 32px;
@@ -183,4 +185,20 @@ img {
   background-color: var(--color-fondo);
   display: flex;
   justify-content: center;
+}
+.redes {
+  background-color: #022d3b;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  
+}
+.redes img {
+  border: 0px;
+  height: 34px;
+  width: auto;
+  justify-content: center;
+  border-radius: 0px;
+
 }
