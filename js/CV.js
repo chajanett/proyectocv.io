@@ -48,6 +48,7 @@ document.getElementById ("inicio").onclick = function () {
 
 const colorSwitch = document.querySelector('#temas input[type="checkbox"]');
             function cambiaTema(ev){
+                console.log ("cambio de tema");
                 if(ev.target.checked){
                     document.documentElement.setAttribute('tema', 'dia'); document.getElementById ("deslisador").innerHTML="🌜";
                 } else {
