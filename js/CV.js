@@ -40,7 +40,7 @@ document.getElementById ("inicio").onclick = function () {
     console.log ("cick en inicio");
     document.getElementById ("titulo").innerHTML=" Proyecto Final";
     document.getElementById ("subtitulo1").innerHTML="Ejemplo de CV";
-    document.getElementById ("parrafo").innerHTML=" Este trabajo ha sido realizado por Juan Daniel Fernández, el mismo contiene Funciones de Js en el menu que modifica el contenido principal";
+    document.getElementById ("parrafo").innerHTML=" Este trabajo ha sido realizado por Juan Daniel Fernández, el mismo contiene Funciones de Js en el menu que modifica el contenido principal, Además contiene un botón de tipo check en la parte superior configurado con variables de color en tema día y noche preparado para ejecutar un comportamiento en java script";
     document.getElementById ("subtitulo2").innerHTML="";
     document.getElementById ("parrafo2").innerHTML="";
     document.getElementById ("imgcont").src="media/imgproyectocv.jpg";

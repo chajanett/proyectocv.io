@@ -32,7 +32,6 @@
 }
 
 html {
-  font-family: 'Calistoga', cursive;
   background-color: var(--backgrounpage);
 }
 
@@ -45,6 +44,7 @@ html {
  
 }
 .header h1 {
+  font-family: 'Aboreto', cursive;
   color: var(--color-fuente);
   margin: 15px;
  
@@ -156,11 +156,11 @@ html {
   .col-12 {width: 100%;}
 }
 h1,h2,h3,h5, h4 {
-  font-family: 'Open Sans', sans-serif;
   text-align: center;
   color: var(--fondomarquesina);
 }
 p {
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   color: var(--fondomarquesina);
   font-size: 18px
